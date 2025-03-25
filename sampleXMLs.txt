@@ -1,0 +1,43 @@
+<form>
+  <field id="name" type="text" label="Full Name" required="true" />
+  <field id="email" type="text" label="Email Address" required="true" />
+  <field id="dob" type="datetime" label="Date of Birth" required="true" />
+  <field id="gender" type="radio" label="Gender" required="true">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </field>
+  <field id="signature" type="drawing" label="Signature" required="true" />
+</form>
+
+
+
+<form>
+  <field id="firstName" type="text" label="First Name" required="true" />
+  <field id="lastName" type="text" label="Last Name" required="true" />
+  <field id="registrationDate" type="datetime" label="Registration Date" required="true" />
+  <field id="employmentType" type="radio" label="Employment Type" required="true">
+    <option value="fulltime">Full-Time</option>
+    <option value="parttime">Part-Time</option>
+    <option value="contract">Contract</option>
+    <option value="freelance">Freelance</option>
+  </field>
+  <field id="professionalSignature" type="drawing" label="Professional Signature" required="true" />
+</form>
+
+
+<form>
+  <field id="companyName" type="text" label="Company Name" required="false" />
+  <field id="foundingDate" type="datetime" label="Founding Date" required="false" />
+  <field id="companyType" type="radio" label="Company Type" required="true">
+    <option value="startup">Startup</option>
+    <option value="enterprise">Enterprise</option>
+    <option value="nonprofit">Non-Profit</option>
+  </field>
+  <field id="ceoSignature" type="drawing" label="CEO Signature" required="false" />
+</form>
+
+
+<form>
+  <field id="invalidField" type="unsupported" label="Invalid Field" required="true" />
+</form>
